@@ -92,26 +92,12 @@ form input{
     margin-top: 2vh;
     color: whitesmoke;
     border: none;
-    border-radius: 12px;
+    border-radius: 15px;
     background-color: black;
     font-size: 14px;
     font-weight: bold;
     padding: 8px 15px 8px 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* -----Mobile View Css----- */
 @media screen and (max-width:1339px){
@@ -124,7 +110,6 @@ form input{
 @media screen and (max-width:800px){
     .box{
         width: 400px;
-        
         margin: auto;
         max-width: 100%;
     }   
@@ -162,98 +147,15 @@ form input{
             opacity: 1;
             transform: translateX(0%);
         }
-    }
-   
+    } 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width:376px){
+    .box{
+        width: 300px;
+        margin: auto;
+        max-width: 100%;
+    }   
+}
 
 .copyright{
     display: flex;
